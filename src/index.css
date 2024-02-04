@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  color: white;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: #2e0909;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 6rem;
+}
+.links {
+  display: flex;
+  font-size: 2rem;
+  gap: 5rem;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  scale: 1.1;
+  transition: 0.3sec;
+}
+
+.hire-button {
+  background-color: #951710;
+  border-radius: 5px;
+  padding: 1.5rem 2.5rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.hire-button:hover {
+  background-color: #ba1a12;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1.3fr;
+  width: 75%;
+  height: 80%;
+  margin: 2rem auto;
+  gap: 4rem;
+  padding-bottom: 3.5rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.greetings {
+  font-size: 5rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.name {
+  font-size: 4.5rem;
+  margin-bottom: 3rem;
+}
+
+.elaboration {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.footer {
+  background-color: #002449;
+}
+
+.footer-upper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4rem 10rem;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 2px solid rgba(255, 217, 0, 0.221);
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5rem;
+}
