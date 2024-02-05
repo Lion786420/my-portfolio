@@ -7,12 +7,14 @@ import Services from "./components/Services.js";
 import Touch from "./components/Touch.js";
 import Footer from "./components/Footer.js";
 import "./index.css";
+import Contact from "./components/Contact.js";
 
 function App() {
   return (
     <React.Fragment>
       <Card>
         <Header />
+        {/* <Contact /> */}
         <Hero />
       </Card>
       <About />
