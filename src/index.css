@@ -7,7 +7,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  color: white;
+  color: #cbc7c0;
 }
 
 body {
@@ -42,7 +42,7 @@ a:link,
 a:visited {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: #cbc7c0;
 }
 
 a:hover,
@@ -56,7 +56,7 @@ a:active {
   border-radius: 5px;
   padding: 1.5rem 2.5rem;
   border: none;
-  color: white;
+  color: #cbc7c0;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -69,9 +69,9 @@ a:active {
   grid-template-columns: 2fr 1.3fr;
   width: 75%;
   height: 80%;
-  margin: 2rem auto;
+  margin: 0 auto;
   gap: 4rem;
-  padding-bottom: 3.5rem;
+  padding: 2.5rem 0;
 }
 
 .description {
@@ -101,6 +101,118 @@ a:active {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 1px;
+}
+
+.services {
+  background-color: #2e0909;
+  border: 1px solid white;
+  padding: 10rem 5rem;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.services-hr {
+  width: 15%;
+  margin: 0 auto;
+  border: 1px solid #ec5b53;
+  margin-bottom: 5rem;
+}
+
+.services-container {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.item-container {
+  background-color: #181a1b;
+  height: 40rem;
+  width: 35rem;
+  border-radius: 10px;
+  padding: 3rem 4rem;
+}
+
+.item-container {
+  background-color: #181a1b;
+}
+
+.item-logo {
+  background-color: #ec5b53;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.item-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.item-description {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-weight: 200;
+}
+
+.touch-container {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10rem 0 10rem 0;
+}
+
+.touch-heading {
+  font-size: 4rem;
+  padding: 3rem;
+}
+
+.touch-details {
+  font-size: 1.5rem;
+  padding: 3rem;
+}
+
+.touch-hr {
+  width: 10%;
+  margin: 0 auto;
+  border: 1px solid #ec5b53;
+  margin-bottom: 3rem;
+}
+
+.touch-form {
+  width: 100%;
+}
+
+.touch-form > input {
+  width: 60%;
+  height: 4rem;
+  background-color: #1b1d1e;
+  border: 1px solid rgb(85, 81, 81);
+  height: 5rem;
+  padding: 2rem;
+  margin-right: 3rem;
+}
+
+.touch-form > button {
+  background-color: #951710;
+  border: none;
+  border-radius: 5px;
+  padding: 1.5rem 4rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #cbc7c0;
+}
+
+.touch-form > button:hover {
+  background-color: #ba1a12;
 }
 
 .footer {
