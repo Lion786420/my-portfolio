@@ -17,13 +17,13 @@ const Services = (props) => {
       logo: IoLogoWebComponent,
       title: "Web Development",
       description:
-        "I specialize in web development, bringing your digital vision to life with clean, efficient code and user-friendly interfaces. From front-end design minor to back-end functionality, I create websites that not only look great but also deliver a smooth and engaging user experience.",
+        "I specialize in web development, bringing your digital vision to life with clean, efficient code with user-friendly interfaces. From front-end design to minor back-end functionality, I create websites that not only look great but also deliver a smooth user experience.",
     },
     {
       logo: TbMessageLanguage,
       title: "Natural Language Processing",
       description:
-        "I excel in Natural Language Processing (NLP), making computers understand and interact with human language effortlessly. Let me bring a linguistic touch to your projects!",
+        "I excel in Natural Language Processing (NLP), making computers understand and interact with human language effortlessly and engage with projects in similar fields. Let me bring a linguistic touch to your projects!",
     },
   ];
   return (

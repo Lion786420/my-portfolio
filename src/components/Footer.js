@@ -10,10 +10,26 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-upper">
         <div className="footer-links">
-          <FaFacebook size="2rem" />
-          <FaTwitter size="2rem" />
-          <FaInstagram size="2rem" />
-          <FaGithub size="2rem" />
+          <FaFacebook
+            size="2rem"
+            onClick={() =>
+              window.open("https://www.facebook.com/aniket.thapa.372/")
+            }
+          />
+          <FaTwitter
+            size="2rem"
+            onClick={() => window.open("https://twitter.com/Lion_786_420")}
+          />
+          <FaInstagram
+            size="2rem"
+            onClick={() =>
+              window.open("https://www.instagram.com/aniket.thapa786")
+            }
+          />
+          <FaGithub
+            size="2rem"
+            onClick={() => window.open("https://github.com/Lion786420")}
+          />
         </div>
         <div className="footer-logo">
           <Logo />
