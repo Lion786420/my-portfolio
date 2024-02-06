@@ -1,24 +1,24 @@
 import Logo from "../assets/Logo";
 import "../index.css";
 
-const Header = () => {
+const Header = (props) => {
+  const homeSwitcher = () => {
+    props.switcher("Home");
+  };
+  const contactSwitcher = () => {
+    props.switcher("Contact");
+  };
   return (
     <header>
-      <div class="logo-div">
+      <div>
         <Logo />
       </div>
-      <div class="links">
-        <span>
-          <a href="./">Home</a>
-        </span>
-        <span>
-          <a href="./">About me</a>
-        </span>
-        <span>
-          <a href="./">Contact</a>
-        </span>
+      <div className="links">
+        <span onClick={homeSwitcher}>Home</span>
+        <span>About me</span>
+        <span onClick={contactSwitcher}>Contact</span>
       </div>
-      <button class="hire-button">Hire me</button>
+      <button className="hire-button">Hire me</button>
     </header>
   );
 };

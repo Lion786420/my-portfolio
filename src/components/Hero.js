@@ -5,13 +5,18 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-const Hero = () => {
+const Hero = (props) => {
+  const updateHandler = () => {
+    props.switcher("Contact");
+  };
   return (
-    <div class="hero">
-      <div class="description">
-        <h1 class="greetings">Hello, I'm a Web Developer</h1>
-        <h2 class="name">Aniket Thapa</h2>
-        <button className="hero-button">Contact me</button>
+    <div className="hero">
+      <div className="description">
+        <h1 className="greetings">Hello, I'm a Web Developer</h1>
+        <h2 className="name">Aniket Thapa</h2>
+        <button className="hero-button" onClick={updateHandler}>
+          Contact me
+        </button>
         <div className="footer-links">
           <FaFacebook
             size="4rem"
@@ -35,8 +40,8 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div class="image">
-        <img src={MainImage} alt="Aniket Thapa" class="hero-img" />
+      <div className="image">
+        <img src={MainImage} alt="Aniket Thapa" className="hero-img" />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header.js";
 import Card from "./components/Card.js";
 import Hero from "./components/Hero.js";
@@ -10,16 +10,20 @@ import "./index.css";
 import Contact from "./components/Contact.js";
 
 function App() {
+  const [section, switcher] = useState("Home");
+  const switchHandler = (data) => {
+    switcher(data);
+  };
   return (
     <React.Fragment>
       <Card>
-        <Header />
-        {/* <Contact /> */}
-        <Hero />
+        <Header switcher={switchHandler} />
+        {section === "Contact" && <Contact />}
+        {section === "Home" && <Hero switcher={switchHandler} />}
       </Card>
-      <About />
-      <Services />
-      <Touch />
+      {section === "Home" && <About />}
+      {section === "Home" && <Services />}
+      {section === "Home" && <Touch />}
       <Footer />
     </React.Fragment>
   );
