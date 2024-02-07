@@ -33,6 +33,7 @@ const Services = (props) => {
       <div className="services-container">
         {services.map((service) => (
           <ServiceItem
+            key={Math.random()}
             logo={service.logo}
             title={service.title}
             description={service.description}

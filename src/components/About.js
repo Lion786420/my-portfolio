@@ -3,20 +3,26 @@ import "../index.css";
 const About = () => {
   return (
     <div className="about">
-      <div className="about-heading">About me</div>
-      <hr className="about-hr" />
+      <div className="filler">
+        <div className="about-heading">About me</div>
+        <hr className="about-hr" />
+      </div>
       <div className="about-grid">
         <div className="about-section">
           <h2 className="about-sub">Frontend and Backend Developer</h2>
           <hr className="about-hr2" />
           <p className="about-description">
-            Hey, I'm Aniket Thapa, a final-year student deeply immersed in the
-            world of web development. I love transforming concepts into engaging
-            online experiences. Join me on this digital journey where innovation
-            meets functionality. My portfolio is not just a showcase, it's an
-            invitation to explore the exciting realm of web development
-            together. Welcome aboard!
+            I'm Aniket Thapa, a front-end developer that is enthusiastic about
+            using slick aesthetics and simple user interfaces to create engaging
+            user experiences. I specialize in creating aesthetically pleasing
+            websites that capture customers' attention from the moment they
+            land, thanks to my proficiency in HTML, CSS, and JavaScript. I have
+            some experience in backend development as well, which rounds out my
+            knowledge of the entire web development process.
           </p>
+          <a href="../assets/cv.pdf" download>
+            <button className="cv">Download CV</button>
+          </a>
         </div>
         <div className="about-stats">
           <div className="stats-container">
@@ -33,7 +39,7 @@ const About = () => {
           </div>
           <div className="stats-container">
             <span className="stats-indicator">React</span>
-            <div className="stats-fill" style={{ width: "50%" }}></div>
+            <div className="stats-fill" style={{ width: "55%" }}></div>
           </div>
           <div className="stats-container">
             <span className="stats-indicator">Node</span>

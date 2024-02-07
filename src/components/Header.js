@@ -5,6 +5,9 @@ const Header = (props) => {
   const homeSwitcher = () => {
     props.switcher("Home");
   };
+  const aboutSwitcher = () => {
+    props.switcher("About");
+  };
   const contactSwitcher = () => {
     props.switcher("Contact");
   };
@@ -15,7 +18,7 @@ const Header = (props) => {
       </div>
       <div className="links">
         <span onClick={homeSwitcher}>Home</span>
-        <span>About me</span>
+        <span onClick={aboutSwitcher}>About me</span>
         <span onClick={contactSwitcher}>Contact</span>
       </div>
       <button className="hire-button">Hire me</button>

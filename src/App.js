@@ -8,6 +8,7 @@ import Touch from "./components/Touch.js";
 import Footer from "./components/Footer.js";
 import "./index.css";
 import Contact from "./components/Contact.js";
+import MyProject from "./components/MyProjects.js";
 
 function App() {
   const [section, switcher] = useState("Home");
@@ -21,9 +22,10 @@ function App() {
         {section === "Contact" && <Contact />}
         {section === "Home" && <Hero switcher={switchHandler} />}
       </Card>
-      {section === "Home" && <About />}
+      {section === "About" && <About />}
+      {section === "About" && <MyProject />}
       {section === "Home" && <Services />}
-      {section === "Home" && <Touch />}
+      {!(section === "Contact") && <Touch />}
       <Footer />
     </React.Fragment>
   );
