@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Logo from "../assets/Logo";
+import "../responsive.css";
 
 const Footer = () => {
   return (

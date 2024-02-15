@@ -1,4 +1,5 @@
 import "../index.css";
+import "../responsive.css";
 
 const ContactForm = () => {
   return (

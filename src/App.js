@@ -7,6 +7,7 @@ import Services from "./components/Services.js";
 import Touch from "./components/Touch.js";
 import Footer from "./components/Footer.js";
 import "./index.css";
+import "./responsive.css";
 import Contact from "./components/Contact.js";
 import MyProject from "./components/MyProjects.js";
 

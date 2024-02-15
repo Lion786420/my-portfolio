@@ -1,5 +1,6 @@
 import Logo from "../assets/Logo";
 import "../index.css";
+import "../responsive.css";
 
 const Header = (props) => {
   const homeSwitcher = () => {

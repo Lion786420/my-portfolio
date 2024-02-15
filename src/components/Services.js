@@ -2,6 +2,7 @@ import ServiceItem from "./ServiceItem";
 import { MdDesignServices } from "react-icons/md";
 import { IoLogoWebComponent } from "react-icons/io5";
 import { TbMessageLanguage } from "react-icons/tb";
+import "../responsive.css";
 
 import "../index.css";
 

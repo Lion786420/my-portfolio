@@ -7,6 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import ContactForm from "./ContactForm";
+import "../responsive.css";
 
 const Contact = () => {
   return (

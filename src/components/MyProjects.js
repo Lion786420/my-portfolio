@@ -3,6 +3,7 @@ import Project from "./Project";
 import Expense from "../assets/Expense.png";
 import Investment from "../assets/Investment.png";
 import Course from "../assets/Course.png";
+import "../responsive.css";
 
 const data = [
   {
