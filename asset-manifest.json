@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.0c0e49cd.css",
+    "main.js": "/my-portfolio/static/js/main.bdd8d094.js",
+    "static/media/image.jpg": "/my-portfolio/static/media/image.647d5aa29bf5e5237ac9.jpg",
+    "static/media/Investment.png": "/my-portfolio/static/media/Investment.d3976a43949adcf482b5.png",
+    "static/media/Expense.png": "/my-portfolio/static/media/Expense.8f08de62c9a0b74076b9.png",
+    "static/media/Course.png": "/my-portfolio/static/media/Course.e76757db85d4d2e35a73.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.0c0e49cd.css.map": "/my-portfolio/static/css/main.0c0e49cd.css.map",
+    "main.bdd8d094.js.map": "/my-portfolio/static/js/main.bdd8d094.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c0e49cd.css",
+    "static/js/main.bdd8d094.js"
+  ]
+}
